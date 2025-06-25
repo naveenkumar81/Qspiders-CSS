@@ -1,0 +1,13 @@
+/* adjacent sibling selector:targets the adjacent value which present beside */
+
+div + h1{
+    background-color: pink;
+}
+/*Generall sibling:this gives styling to all elements we used all like all tags */
+div ~ p{
+    background-color: blue;
+}
+/* discedent sibling */ 
+div p,h1{
+    background-color: chartreuse;
+}

@@ -1,0 +1,7 @@
+p{
+    background-color: aliceblue;/*predefined color*/
+    background-color: rgb(255,255, 255);
+    background-color: hsl(233,45,0);
+    background-color: #fff; /*alias of #ffffff*/
+    background-color: #000; /*alias of #000  short hand property*/
+}

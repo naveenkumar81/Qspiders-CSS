@@ -1,0 +1,28 @@
+a[target]{
+    background-color: aquamarine;
+}
+
+a[target="_blank"]{
+    background-color: cadetblue;
+}
+
+a[title~="are"]{
+    background-color: blueviolet;
+}
+
+a[title |= "all"]{
+    background-color: chartreuse;
+}
+
+a[title ^= "all"]{
+    background-color: brown;
+}
+
+a[title $= "ed"]{
+    background-color: darkgoldenrod;
+}
+
+a[title *= "i"]{
+    background-color: darkslategray;
+}
+

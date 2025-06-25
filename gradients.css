@@ -1,0 +1,16 @@
+div{
+    height: 300px;
+    width: 300px;
+    background-image: linear-gradient(orange,red,blue);
+    background-image: linear-gradient(0deg,orange,red,blue);
+    background-image: linear-gradient(90deg,orange,red,blue);
+    background-image: linear-gradient(to right,orange,red,blue);
+    background-image: linear-gradient(to bottom,orange,red,blue);
+    background-image: repeating-linear-gradient(45deg,black 3% 6%,white 6% 9%,blue 9%);
+    background-image: radial-gradient(circle,orange,red,blue);
+    background-image: repeating-linear-gradient(orange 3% 6%,red 6% 9%,blue);
+    background-image: conic-gradient(orange,red,blue);
+    background-image: conic-gradient(from 180deg,orange,red,blue);
+    background-image: conic-gradient(at 50% 50%,orange,red,blue); 
+    background-image: conic-gradient(from 239deg,orange,red,blue);  
+}

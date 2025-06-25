@@ -1,0 +1,29 @@
+p::first-letter{
+    color: blue;
+    font-size: 40px;
+}
+
+p::first-line{
+    color: brown;
+
+}
+
+p::before{
+    content: "hello welcome...!";
+    /* content: url(./taylor\ swift.webp); */
+}
+
+p::after{
+    content: "thank you...!";
+    color: chartreuse;
+}
+
+p::selection{
+    color: hotpink;
+    background-color: cadetblue;
+}
+
+::marker{
+    color: cyan;
+    font-size: 20px;
+}

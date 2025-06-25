@@ -1,0 +1,20 @@
+p{
+    /* predifined color */
+    background-color: aliceblue; 
+    /* rgb color */
+    background-color: rgb(255,0,0);
+    /* rgba color */
+    background-color: rgba(255,0,0,0.5);
+    /* hexa color */
+    background-color: #fffab2;
+    /* hsl(hue saturation lightness) */
+    background-color: hsl(120,0%,50%);
+    /* hsla(hue saturation lightness alpha) */
+    background-color: hsla(260,50%,50%,0.5);
+}
+
+div{
+    height: 30px;
+    width: 30px;
+    background-color: aquamarine;
+}

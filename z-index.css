@@ -1,0 +1,38 @@
+div{
+    height: 100px;
+    width: 100px;
+}
+.div-1{
+    background-color: red;
+    /* prints only this color if we use absolute */
+    left: 500px;
+    border-radius: 100%;
+    z-index: 3;
+    top: 190px;
+    position: absolute;
+}
+.div-2{
+    background-color: green;
+    position: absolute;
+    /* prints 200px  left caz we used z index */
+    z-index: 1;
+    left: 610px;
+    top: 190px;
+    border-radius: 100%;
+}
+.div-3{
+    background-color: aqua;
+    position: absolute; 
+    z-index: 4;
+    left: 560px;
+    border-radius: 100%;
+    top: 125px;
+}
+.div-4{
+    background-color: indigo;
+    position: absolute;
+    z-index: 2;
+    border-radius: 100%;
+    left: 560px;
+    top: 250px;
+}

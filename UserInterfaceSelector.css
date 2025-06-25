@@ -1,0 +1,9 @@
+input:enabled{
+    background-color: palegreen;
+}
+input:disabled{
+    background-color: teal;
+}
+input:checked{
+    outline: solid 2px red;  
+}

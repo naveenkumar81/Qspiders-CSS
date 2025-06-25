@@ -1,0 +1,126 @@
+body{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px; */
+    /* border:2px solid; */
+    color:white;
+    
+    font-size: larger;
+    
+}
+
+section{
+    margin:auto;
+    background-color: black;
+    height: 500px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 5px yellow;
+}
+
+.div1{
+    height: 150px;
+    width: 300px;
+    border-radius: 10px;
+    
+}
+
+.div2{
+    height:350px;
+    width: 300px;
+    background-color: rgb(31, 29, 29);
+    border-radius: 10px;
+}
+
+main{
+    height:66px;
+    width:297px;
+    /* border: 2px red solid; */
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    
+}
+
+
+
+div{
+    height:45px;
+    width: 60px;
+    /* border: 2px red solid; */
+    border-radius: 10px;
+}
+div:hover{
+    background-color:black;
+    color: white;
+    transform: scale(0.9);
+}
+div:active{
+    transform: scale(0.9);
+    color: darkgreen; 
+    animation-duration: 0.3s;
+}
+
+.div3{
+    background-color: rgb(39, 249, 127);
+    color: rgb(10, 1, 4);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+}
+
+.div4{
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    transform: scale(0.9);
+}
+
+.div5{
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.div6{
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.div7{
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.div8{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.div9{
+    background-color:gray;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.div10{
+    background-color:green;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.div11{
+    background-color:red;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}

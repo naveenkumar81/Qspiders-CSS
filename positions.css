@@ -1,0 +1,45 @@
+ .relative{
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    top: 200px;
+    left: 200px;
+    position: relative;
+}
+.absolute{
+  height: 100px;
+    width: 100px;
+    background-color: red;   
+    /* position: static;
+    top: 200px;
+    position: relative;
+    /* left: 200px;  */
+    position: absolute;
+    left: 40px;
+    top: 30px;
+}
+.div-2{
+    height: 400px;
+    width: 400px;
+    background-color: palevioletred;
+    position: static;
+} 
+/* .div-3{
+    height: 100px;
+    width: 100%;
+    background-color:blue;  
+    position: sticky;
+    top: 0px;
+    bottom: 0px;
+    
+    
+}
+.fixed{
+    height: 100px;
+    width: 100px;
+    background-color:yellow; 
+    border-radius: 100%; 
+    position: fixed;
+    right: 50px;
+    bottom: 50px;  */
+//}

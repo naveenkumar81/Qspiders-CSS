@@ -1,0 +1,19 @@
+section{
+    height: 300px;
+    width: 200px;
+    margin: 100px auto;
+    transition-duration: 1s;
+    transition-delay: 2s;
+    transition-property: all;
+    transition-property: height;
+    transition-property: width;
+    transition-timing-function: steps(10);
+    transition: all 3s linear 1s;
+    background-image: repeating-conic-gradient(white 0deg 15deg, black 15deg 30deg);
+    border-radius: 100%;
+    
+}
+section:hover{
+    height: 500px;
+    width: 500px;
+}

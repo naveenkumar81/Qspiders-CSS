@@ -1,0 +1,54 @@
+p{
+    height: 300px;
+    width: 302px;
+    color: rgb(255, 0, 238);
+    /* border-style: groove; */
+    /* border-style: inset;
+    border-style: outset; */
+    /* border-style: double;
+    border-color:red;
+    border-width: 30px; */
+    /* we can use short hand property---border */
+    border: dashed 15px forestgreen;
+    border-top: forestgreen 12px dotted;
+    border-left: forestgreen 5px inset;
+    border-bottom: 14px hotpink outset;
+    border-right: 5px forestgreen outset;
+
+    /* short hand property for border-style */
+    border-style: solid ;
+    border-style: solid  dotted;
+    border-style: solid  dotted double;
+   border-style: solid  dotted double dashed;
+   /* short hand property for border width */
+   border-width: 12px;
+   border-width: 12px 13px ;
+   border-width: 12px 12px 17px;
+   border-width: 12px 12px 17px 19px;
+
+   /* padding */
+   /* padding-top: 24px ;
+   padding-left: 32px;
+   padding-bottom: 32px;
+   padding-right: 32px; */
+   /* we can use short hand property--->padding */
+   text-align: justify;
+   /* for all sides */
+   padding: 30px;  
+     /* for top bottom, left right   */
+   padding: 30px 32px;
+   /* for top bottom, left right */
+   padding: 30px 34px 32px;
+   /* for top ,left right,bottom, */
+   padding: 30px 23px  34px 32px;
+    /* for top ,left ,right,bottom, */
+
+
+
+    
+} 
+input{
+    /* we can use none for border style */
+    border-style: dashed;
+    background-color: aqua;
+} 

@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    /* border: 2px solid; */
+    align-items: center;
+    background-color: blueviolet;
+}
+
+div{
+    height: 50px;
+    width: 900px;
+    background-color: chartreuse;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color:blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+a:hover{
+    color:crimson;
+}

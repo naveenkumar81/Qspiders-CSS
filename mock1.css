@@ -1,0 +1,115 @@
+section{
+    background-color: #e26c35;
+    height: 400px;
+    width: 400px;
+    border-radius: 4%;
+    display: flex;
+}
+.background{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    margin-left: 45px;
+    margin-top: 45px;
+    display: flex;
+}
+img{
+   
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 40px;
+    padding: 3px;
+    border: solid 2px ;
+    outline: 2px solid ;
+    outline-offset: 3px;
+    
+}
+.name{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    line-height: 9px;
+}
+.box{
+    height: 30px;
+    width: 90px;
+    border: 2px solid;
+    margin-left: 50px;
+    margin-top: 22px;
+    border-radius: 40px;
+    border: 2px solid;
+}
+.follow{
+ margin-left: 19.5px;
+ margin-top: 5px;
+ font-family: sans-serif;
+font-weight: bold;
+}
+.box:hover{
+    color: white;
+    background-color: black;
+}
+.box1{
+    height: 30px;
+    width: 90px;
+    border: 2px solid;
+    margin-left: 50px;
+    margin-top: 0px;
+    border-radius: 40px;
+    border: 2px solid;
+}
+.message{
+    margin-left: 10px;
+    margin-top: 5px;
+    font-family: sans-serif;
+   font-weight: bold;
+}
+.box1:hover{
+    color: white;
+    background-color: black;
+}
+div{
+    display: grid;
+    gap: px;
+}
+.p1{
+ height: 98px;
+ width: 90px;
+ margin-left: 60px;
+ text-align: center;
+ background-color: rgb(189, 175, 175);
+}
+.num{
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.text{
+    font-size: 10px;
+    margin-bottom: 38px;
+}
+.p2{
+    height: 98px;
+    width: 90px;
+    margin-left: 60px;
+    text-align: center;
+    background-color: rgb(189, 175, 175);
+   }
+.p3{
+    height: 98px;
+    width: 90px;
+    margin-left: 60px;
+    text-align: center;
+    background-color: rgb(189, 175, 175);
+   }
+   .p3:hover{
+    background-color: grey;
+   }
+   .p2:hover{
+    background-color: grey;
+   }
+   .p1:hover{
+    background-color: grey;
+   }

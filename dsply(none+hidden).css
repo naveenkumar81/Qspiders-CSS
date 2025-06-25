@@ -1,0 +1,15 @@
+h1{
+    background-color: brown;
+}
+p{
+    /* display: none; */
+
+    visibility: hidden;
+}
+
+h1:hover + p{
+    background-color: aqua;
+    /* display: block; */
+
+    visibility: visible;
+}

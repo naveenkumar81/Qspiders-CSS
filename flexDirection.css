@@ -1,0 +1,46 @@
+section{
+    border: 2px solid;
+    height: 700px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+div{
+     height: 200px;
+    width: 200px;
+    font-size: 20px;
+}
+.div-1{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* shrink works if parent class has less width than  sum of all thechild classes */
+    flex-shrink: 3;
+}
+.div-2{
+    background-color: rgb(208, 154, 16);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* grows works if parent class has morewidth than  sum of all thechild classes */
+    flex-grow: 3;
+}
+.div-3{
+    background-color: rgb(105, 15, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*  flex basis take with from percentage of width from parent class */
+    flex-basis: 40%;
+}
+.div-4{
+    background-color: rgb(8, 218, 57);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* short-end property for
+     flex: flex-grow flex-shrinks  flex-basis */
+    flex: 2 3 25%;
+}

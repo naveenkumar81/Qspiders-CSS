@@ -1,0 +1,16 @@
+div h1{
+    background-color: blueviolet;
+
+}
+div > p{
+    background-color: yellow;
+}
+div section h1 {
+    background-color: orange;
+}
+div section p{
+    background-color: pink;
+}
+h1{
+    background-color: deepskyblue;
+}

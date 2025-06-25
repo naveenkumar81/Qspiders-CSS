@@ -1,0 +1,85 @@
+body{
+    background-color: black;
+    font-family: sans-serif;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    
+}
+section{
+    height: 200px;
+    width: 450px;
+    display: flex;
+    gap: 20px ;
+    
+}
+.title{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.month-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    
+}
+.months{
+    display: grid;
+    grid-template-columns: repeat(4,270px);
+    gap: 18px;
+    justify-content: center;
+}
+.month{
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 8px;
+    /* background-color: #202020; */
+    text-align: center;
+}
+.days:hover{
+    color: red;
+}
+.empty{
+    background-color: none;
+}
+.days{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    text-align: center;
+    gap: 4px;
+    font-size: 14px;
+    
+}
+.days div{
+    background-color: none;
+    padding: 10px 0;
+    margin-left: -5px;
+}
+
+.holidays{
+    height: 1100px;
+    line-height: 65px;
+    width: 400px;
+    padding: 15px;
+    background-color: #000000;
+    border-radius: 9px;
+    border: 2px solid rgb(1, 0, 0);
+    margin-left: 0px;
+}
+.holidays  h2{
+    text-align: center;
+    margin-bottom: 8px;
+}
+.holidays ul{
+    width: 300px;
+    list-style: none;
+    padding: 0;
+}
+.holidays li{
+    padding: 6px 0;
+    border-bottom: 1px solid #3e3d3d;
+}
+
+

@@ -1,0 +1,18 @@
+a:link{
+    background-color: violet;
+}
+a:visited{
+    background-color: rgb(104, 130, 0);
+}
+a:active{
+    background-color: blue;
+}
+h1:hover{
+    background-color: greenyellow;
+    color:crimson
+}
+input:focus{
+    background-color: yellow;
+    color: teal;
+}
+

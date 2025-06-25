@@ -1,0 +1,31 @@
+ul li:first-child{
+    color: aqua;
+}
+ul li:last-child{
+    color: blueviolet;
+}
+ul li:nth-child(3){
+    color: forestgreen;
+}
+ul li:nth-child(odd){
+    color: chocolate;
+}
+ul li:nth-child(even){
+    color: chartreuse;
+}
+
+input:first-of-type{
+    color: deepskyblue;
+}
+input:last-of-type{
+    color: rebeccapurple;
+}
+input:nth-last-of-type(2){
+    background-color:palegoldenrod;
+}
+input:nth-last-of-type(even){
+    color: olive;
+}
+input:nth-last-of-type(odd){
+    color:crimson
+}

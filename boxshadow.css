@@ -1,0 +1,22 @@
+.cb{
+    height: 400px;
+    width: 400px;
+    background-color: yellow;
+    font-size: 25px;
+    border: 5px solid;
+    border-color: darkorange;
+    padding: 20px;
+    box-sizing: content-box;
+    margin: 130px auto;
+    /* box--shadow */
+    box-shadow: 10px 10px green;
+    box-shadow: -10px 10px greenyellow;
+    box-shadow: -10px -10px pink;
+    box-shadow: -10px -10px 10px;
+    box-shadow: 0px 0px 10px 10px blue;
+    box-shadow: 0px 0px 10px 10px black inset;
+    box-shadow: 10px  green,-10px 10px indigo,10px -10px green, -10px -10px indigo;
+    /* inset color shadowing */
+    /* box-shadow: 10px  green */
+    box-shadow: 0px -10px green, 10px 0px indigo,0px 10px green,-10px 0px indigo;
+}

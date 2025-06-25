@@ -1,0 +1,24 @@
+p{
+    background-color: hotpink;
+    background-image: url(https://i.pinimg.com/736x/21/de/6a/21de6a8b65a26023fcb1a3ed34e111ec.jpg),url(https://i.pinimg.com/736x/8c/13/c5/8c13c5b0694109b6c8ff31cdd9b40a4b.jpg);
+     /* background-repeat:repeat-y; */
+       background-repeat:no-repeat;
+      /* background-position:top left; */
+      /* background-position:top center; */
+      /* background-position:top right; */
+      /* background-position:bottom right; */
+      /* background-position:20% 80%; */
+      /* background-position:80% 20%; */
+      /* background-position:center;
+      /* background-size:1000px;  */
+      /* tries to show the complete picture  without loosing the clarity  but won't cover complete matter*/
+      /* background-size: contain;
+      /* covers complete content by strecthing the pixel but image may loose clarity and pixel */
+      background-size:cover;
+      /* image will be fixed only content will scroll */
+      background-attachment: fixed;
+      /* the image will be scrolled by default scroll will be present */
+      /* background-attachment: scroll; */
+      /* background-blend-mode:darken; */ 
+
+}

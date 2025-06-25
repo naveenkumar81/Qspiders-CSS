@@ -1,0 +1,152 @@
+section{
+    background-color: #ee6b2e;
+    height: 400px;
+    width:400px;
+    border-radius: 4%;
+    display: flex;
+    margin: -5px auto;
+    padding: 0;
+}
+.background{
+    height: 290px;
+    width: 290px;
+    background-color: white;
+    margin-left: 20px;
+    margin: 49px;
+    display: flex;
+}
+
+/* .img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 38px;
+    margin: 40px;
+    padding: 3px;
+    border: 2px solid;
+    outline: 2px solid;
+    outline-offset: 3px;
+
+
+} */
+
+
+
+img{
+   
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 38px;
+    margin-left: 45px;
+    padding: 3px;
+    border: solid 2px ;
+    outline: solid 2px;
+    outline-offset: 3px;
+    
+} 
+.name{
+    margin-top: 5px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    line-height: 9px;
+    margin-left: 19px;
+} 
+.name2{
+    top:660px;
+    font-family: sans-serif;
+    
+    font-weight: 20;
+    font-style: medium;
+    /* line-height: 2px; */
+    /* margin-right: 190px; */
+    margin-left: 9px;
+}
+.box{
+    height: 30px;
+    width: 115px;
+    border: 2px solid;
+    margin-left: 35px;
+    margin-top: 0px;
+    border-radius: 40px;
+    border: 2px solid;
+    text-align: center;
+}
+.follow{
+ margin-left: 4.5px;
+ margin-top: 4px;
+ font-family: sans-serif;
+font-weight: bold;
+}
+.box:hover{
+    color: white;
+    background-color: black;
+}
+.box1{
+    height: 30px;
+    width: 120px;
+    border: 2px solid;
+    margin-left: 35px;
+    margin-top: 0px;
+    border-radius: 40px;
+    border: 2px solid;
+    text-align: center;
+}
+.message{
+    margin-left: 10px;
+    margin-top: 5px;
+    font-family: sans-serif;
+   font-weight: bold;
+}
+.box1:hover{
+    color: white;
+    background-color: black;
+}
+div{
+    display: grid;
+    gap: px;
+}
+.p1{
+ height: 98px;
+ width: 90px;
+ margin-left: 43px;
+ text-align: center;
+ background-color: rgb(189, 175, 175);
+ border-bottom:  2px white;
+ 
+ 
+}
+.num{
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.text{
+    font-size: 10px;
+    margin-bottom: 38px;
+}
+.p2{
+    height: 98px;
+    width: 90px;
+    margin-left: 43px;
+    margin-top: 1px;
+    text-align: center;
+    background-color: rgb(189, 175, 175);
+   } 
+.p3{
+    height: 93px;
+    width: 90px;
+    margin-left: 43px;
+    margin-top: 1px;
+    text-align: center;
+    background-color: rgb(189, 175, 175);
+   }
+.p3:hover{
+    background-color: grey;
+   }
+.p2:hover{
+    background-color: grey;
+   }
+.p1:hover{
+    background-color: grey;
+   } 

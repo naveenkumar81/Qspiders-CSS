@@ -1,0 +1,24 @@
+body{
+    justify-content: center;
+    align-items: center;
+    
+}
+div{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    /* display: inline; */
+    /* display: block; */
+    /* display: inline-block; */
+} 
+
+div{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    /* display: inline; */
+    /* display: block; */
+    display: inline-block; 
+    
+    
+}
